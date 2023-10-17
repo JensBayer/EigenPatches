@@ -152,8 +152,8 @@ from utils.metrics import ap_per_class, ConfusionMatrix
 config = {
     'width': 256,
     'height': 256,
-    'epochs': 1,
-    'num_patches': 3,
+    'epochs': 100,
+    'num_patches': 100,
     'timestamp': time.time(),
     
     'optimizer': {
